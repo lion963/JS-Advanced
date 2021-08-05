@@ -3,5 +3,5 @@ function echo(a) {
     console.log(a)
 };
 
-let param = 'jkbglkjbglkjhb';
+let param = 'Hello, JavaScript!';
 echo(param);
