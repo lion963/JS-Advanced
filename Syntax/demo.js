@@ -9,3 +9,14 @@ function printStars(count) {
 }
 
 printStars(5);
+
+myarray = [10, 20, 30, 40]
+let [...newarray] = myarray
+
+console.log(...myarray, newarray)
+
+function test(a, b, c, d){
+    console.log(a, b, c, d)
+}
+
+test(...myarray)
